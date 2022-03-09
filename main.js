@@ -15,4 +15,3 @@ function test(arr) {
         console.log(x)
     });
 }
-const
