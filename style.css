@@ -68,11 +68,13 @@ li:hover {
 }
 
 .main__content {
-  height: 500px;
+  height: 550px;
   width: calc(1366px - 200px - 20px);
   background-color: white;
   float: right;
   display: block;
+  position: relative;
+  top: -30px;
 }
 
 .title {
@@ -88,23 +90,65 @@ li:hover {
 }
 
 th {
-  width: 100px;
+  width: -webkit-fill-available;
+  border-bottom: 1px solid #DFE0EB;
 }
+
 input {
-  
+  width: 250px;
+  height: 40px;
+  position: relative;
+  top: 15px;
+  left: 500px;
+  border-radius: 2px;
+
 }
 
 button {
+  width: 120px;
+  height: 40px;
+  position: relative;
+  top:15px;
+  left: 480px;
+  background-color: #282932;
+  border-radius: 2px;
+  border: 1px solid white;
   
 }
-h2 {
- 
+h3 {
+  color: #FFFF;
+  font-size: 14px;
+  position: relative;
+  top: -20px;
+  left: 950px;
+}
+h4{
+  color: #FFFF;
+  position: relative;
+  top: -18px;
+  left: 930px;
+  font-size: 10px;
+  font-family: Arial;
 
- 
+
 }
 .bell {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: -65px;
+  left: 850px ;
+
   
 }
 .avt {
+  border-radius: 50%;
+  position: relative;
+  top: -56px;
+  left: 1110px;
 
+}
+.tieude{
+  border-bottom: 1,5px solid #DFE0EB;
+  color: #9FA2B4;
 }
