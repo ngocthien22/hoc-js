@@ -99,8 +99,10 @@ input {
   height: 40px;
   position: relative;
   top: 15px;
-  left: 500px;
+  left: 470px;
   border-radius: 2px;
+  padding-left: 20px;
+  box-sizing: border-box;
 
 }
 
@@ -151,4 +153,31 @@ h4{
 .tieude{
   border-bottom: 1,5px solid #DFE0EB;
   color: #9FA2B4;
+}
+h2{
+  position: relative;
+  top: -590px;
+  font-size: 19px;
+  font-family: Arial;
+}
+
+p{
+  position: relative;
+  top: -580px;
+  font-size: 15px;
+  color: #252733;
+  font-family: Arial;
+}
+.glass{
+  position: relative;
+  top: -684px;
+  left: 462px;
+  color: grey;
+
+}
+.x{
+  position: relative;
+  color: grey;
+  top: -703px;
+  left: 690px;
 }
