@@ -91,6 +91,7 @@ li:hover {
 
 th {
   width: -webkit-fill-available;
+  height: 92px;
   border-bottom: 1px solid #DFE0EB;
 }
 
@@ -155,10 +156,8 @@ h4{
   color: #9FA2B4;
 }
 h2{
-  position: relative;
-  top: -590px;
-  font-size: 19px;
-  font-family: Arial;
+position: absolute;
+
 }
 
 p{
@@ -180,4 +179,43 @@ p{
   color: grey;
   top: -703px;
   left: 690px;
+}
+span{
+  position: absolute;
+  top: 116px;
+}
+.fa-magnifying-glass::before {
+    position: relative;
+    top: -14px;
+    left: 2px;
+}
+.fa-xmark::before{
+  position: relative;
+  top: -14px
+}
+.new{
+  background: #3751FF;
+  width: 160px;
+  height: 40px;
+  border-radius: 2px;
+  position: absolute;
+  top: 102px;
+  left: 1169px;
+  font-size: 14px;
+  font-family: Arial;
+  color: #fff;
+}
+.fa-solidfa-period{
+  position: absolute;
+  top: 117px;
+  left: 273px
+}
+.circle{
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: black;
+  position: absolute;
+  top: 124px;
+  left: 275px;
 }
